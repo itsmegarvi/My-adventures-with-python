@@ -1,2 +1,2 @@
-print ('hello world')
-print ('how are you')
+print ('Hello, World!')
+print ('How are you')

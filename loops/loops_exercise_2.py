@@ -27,10 +27,8 @@ while int(N) != 0:
          N = int(N) + 1
 print(0)
 
-# QUESTION: Given an integer N, print the number of digits in N.
-#attempt 2
+# QUESTION: Given a number count the total number of digits in a number
 N = int(input('Enter number please: '))
-
 count = 0
 while N != 0:
       N //= 10
