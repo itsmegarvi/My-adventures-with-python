@@ -2,7 +2,7 @@
 
 N = input("Enter number please: ")
 try:
-    0 < int(N) < 100001
+    0 < int(N) <= 100000
 except:
     print ("Number should be b\w 1 to 100000 ")
     quit()

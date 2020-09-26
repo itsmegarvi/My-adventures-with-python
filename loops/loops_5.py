@@ -8,13 +8,9 @@
 def numrally(num):
     for i in range(num + 1):
         n = 0
-        while n < i - 1 :
+        while n < i :
             print (i , end = " ")
             n += 1
-        if n == i - 1 :
-            print (i)
-            continue
+        print("\n")
 
 numrally(5)
-
-            
